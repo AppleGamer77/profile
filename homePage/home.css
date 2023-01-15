@@ -36,6 +36,36 @@
     border: 5px solid white;
     color:  white;
 }
+.inputButtonStyle:hover{
+    background-color: rgba(51, 84, 168, 0.488);
+}
+.inputButtonStyle:focus{
+    background-color: rgba(61, 103, 208, 0.45);
+}
+.IMGclass{
+    text-align: end !important;
+}
+@media (max-width: 991px){
+    .IMGclass {
+        text-align: center !important;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+.proIMG{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .proIMG{
+        width: 75%;
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+        clip-path: polygon(0% 0%, 60% 0%, 60% 100%, 0% 100%);
+        margin-left: 27%;
+    }
+}
 /*Footers section*/
 .socialMedia a{
     color: white;
